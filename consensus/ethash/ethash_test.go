@@ -138,7 +138,7 @@ func TestRemoteSealer(t *testing.T) {
 
 func TestHashrate(t *testing.T) {
 	var (
-		hashrate = []hexutil.Uint64{10, 20, 30}
+		hashrate = []hexutil.Uint64{1, 2, 3}
 		expect   uint64
 		ids      = []common.Hash{common.HexToHash("a"), common.HexToHash("b"), common.HexToHash("c")}
 	)
